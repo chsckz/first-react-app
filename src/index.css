@@ -48,3 +48,28 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  gap: 2px;
+}
+
+a {
+  color: black;
+  padding-left: 5px;
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.nav a:hover {
+  color: blueviolet;
+}
